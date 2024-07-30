@@ -1,6 +1,6 @@
 /**
 *
-*Return list of students
+*Return list of students ids
 *@Author - Ashley
 */
 export default function getListStudentIds(students) {
