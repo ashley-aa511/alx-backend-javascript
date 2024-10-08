@@ -1,4 +1,8 @@
-function displayMessage() {
-    process.stdout.write("Hello NodeJS!\n");
+#!/usr/bin/node
+//This script prints a string argument to STDOUT
+
+function displayMessage(message) {
+    console.log(message);
 }
-displayMessage();
+
+module.exports = displayMessage;
